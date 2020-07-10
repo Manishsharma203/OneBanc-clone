@@ -1,0 +1,339 @@
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    background-image: url('assets/Desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 125vh;
+}
+
+/* Primary Division */
+.primaryDiv{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.content-div{
+    display: flex;
+    flex-direction: row;
+}
+.divison-A{
+    flex-basis: 100%;
+}
+.divison-B{
+    display:none;
+    flex-basis: 60%;
+    position: relative;
+}
+.logoImage{
+    width: 50%;
+    padding: 5%;
+}
+.description-1{
+    font-size: 20px;
+}
+.description-2{
+    font-size: 20px;
+    display: none;
+}
+.typedText-container{
+    color: white;
+    font-size: 50px;
+    width: 60%;
+    margin: 20px;
+}
+.typedText div{
+    display: none;
+    overflow: hidden;
+    border-right: 5px solid white;
+    animation: 
+    typing 2s steps(30, end),
+    caret .5s step-end infinite;
+}
+@keyframes typing {
+    0% {width: 0;}
+    50% {width: 60%;}
+    100% {width: 0%;}
+}
+.inputField-container{
+    background: #2A2EA6;
+    width: 50%;
+    color: white;
+    font-size: 22px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.inputField{
+    display: flex;
+}
+.inputField input{
+    flex-basis: 85%;
+    /* width: 80%; */
+}
+.inputField .iconify{
+    flex-basis: 15%;
+    font-size: 30px;
+    background: #00EEDA;
+}
+.payment{
+    margin: 20px;
+    color: white;
+    font-size: 14px;
+}
+.payment > div{
+    margin-top: 10px;
+}
+.pic3{
+    background-image: url("assets/onebanc_man_mob.png");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 50%;
+    position: relative;
+}
+/* .pic3 img{
+    position: absolute;
+} */
+
+.pic3-icons > div{
+    font-size: 35px;
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.pic3-icons > div:nth-child(6){
+    top:60% ;
+    left:8% ;
+}
+.pic3-icons > div:nth-child(7){
+    top:45% ;
+    left:10% ;
+}
+.pic3-icons > div:nth-child(8){
+    top:30% ;
+    left:15% ;
+}
+.pic3-icons > div:nth-child(9){
+    top:15% ;
+    left:25% ;
+}
+.pic3-icons > div:nth-child(1){
+    top:10% ;
+    left:45% ;
+}
+.pic3-icons > div:nth-child(2){
+    top:15% ;
+    left:65% ;
+}
+.pic3-icons > div:nth-child(3){
+    top:30% ;
+    left:80% ;
+}
+.pic3-icons > div:nth-child(4){
+    top:45% ;
+    left:85% ;
+}
+.pic3-icons > div:nth-child(5){
+    top:60% ;
+    left:88% ;
+}
+.names{
+    font-size: 12px;
+}
+
+/* Secondary Div */
+.secondaryDiv{
+    flex-basis: 50%;
+    display: flex;
+}
+.pic1{
+    flex-basis: 50%;
+    background-image: url('assets/regular_bank_Guy.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 50% 50%;
+    position: relative;
+}
+.pic2{
+    flex-basis: 50%;
+    background-image: url('assets/onebanc_man.png');
+    background-repeat: no-repeat;
+    border-left: 4px dashed black;
+    background-size: 70%;
+    background-position: 20% 50%;
+    position: relative;
+    border-left: 2px dashed black;
+}
+
+.pic1-icons > div{
+    font-size: 35px;
+    display: inline-block;
+    position: absolute;
+    color: gray;
+}
+.pic1-icons > div:nth-child(1){
+    top:50% ;
+    left:20% ;
+}
+.pic1-icons > div:nth-child(2){
+    top:40% ;
+    left:8% ;
+}
+.pic1-icons > div:nth-child(3){
+    top:30% ;
+}
+.pic1-icons > div:nth-child(4){
+    top:20% ;
+    left:8%;
+}
+.pic1-icons > div:nth-child(5){
+    top:10% ;
+    left:25%;
+}
+.pic1-icons > div:nth-child(6){
+    top:10% ;
+    left:50%;
+}
+.pic1-icons > div:nth-child(7){
+    top:20% ;
+    left:80%;
+}
+.pic1-icons > div:nth-child(8){
+    top:30% ;
+    left:85%;
+}
+.pic1-icons > div:nth-child(9){
+    top:40% ;
+    left:85%;
+}
+
+.pic2-icons > div{
+    font-size: 35px;
+    display: inline-block;
+    position: absolute;
+    color: gray;
+}
+.pic2-icons > div:nth-child(6){
+    top:30% ;
+    left:60% ;
+}
+.pic2-icons > div:nth-child(8){
+    top:23% ;
+    left:55% ;
+}
+.pic2-icons > div:nth-child(7){
+    top:23% ;
+    left:70% ;
+}
+.pic2-icons > div:nth-child(1){
+    top:15% ;
+    left:45% ;
+}
+.pic2-icons > div:nth-child(2){
+    top:15% ;
+    left:60% ;
+}
+.pic2-icons > div:nth-child(9){
+    top:15% ;
+    left:75% ;
+}
+.pic2-icons > div:nth-child(3){
+    top:6% ;
+    left:35% ;
+}
+.pic2-icons > div:nth-child(4){
+    top:5% ;
+    left:60% ;
+}
+.pic2-icons > div:nth-child(5){
+    top:6% ;
+    left:80% ;
+}
+
+
+@media (max-width:1080px){
+    .main-container{
+        background: #1C73CB;
+    }
+    .primaryDiv{
+        flex-basis: 100%;
+    }
+    .secondaryDiv{
+        display: none;
+    }
+    .description-1{
+        display: none;
+    }
+    .description-2{
+        display: block;
+    }
+    .typedText-container{
+        width: 90%;
+    }
+    .inputField-container{
+        width: 80%;
+        font-size: 18px;
+    }
+    .divison-A{
+        flex-basis: 50%;
+    }
+    .divison-B{
+        display:block;
+    }
+}
+
+@media(max-width:640px){
+    .main-container{
+        height: 170vh;
+    }
+    .content-div{
+        flex-direction: column;
+    }
+    .pic3{
+        padding-top: 100px;
+        height: 300px;
+    }
+    .pic3-icons > div:nth-child(6){
+        top:60% ;
+        left:8% ;
+    }
+    .pic3-icons > div:nth-child(7){
+        top:45% ;
+        left:10% ;
+    }
+    .pic3-icons > div:nth-child(8){
+        top:25% ;
+        left:15% ;
+    }
+    .pic3-icons > div:nth-child(9){
+        top:10% ;
+        left:25% ;
+    }
+    .pic3-icons > div:nth-child(1){
+        top:2% ;
+        left:45% ;
+    }
+    .pic3-icons > div:nth-child(2){
+        top:10% ;
+        left:65% ;
+    }
+    .pic3-icons > div:nth-child(3){
+        top:25% ;
+        left:80% ;
+    }
+    .pic3-icons > div:nth-child(4){
+        top:43% ;
+        left:85% ;
+    }
+    .pic3-icons > div:nth-child(5){
+        top:60% ;
+        left:88% ;
+    }
+    .payment{
+        text-align: center;
+    }
+}
